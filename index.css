@@ -40,6 +40,8 @@ body {
 }
 
 #header-image {
+	max-height: 250px;
+	overflow: hidden;
 }
 
 #header-image img {
@@ -48,7 +50,6 @@ body {
 
 #main {
 	background-color: #F5F5F5;
-	box-shadow: 3px 3px 20px black;
 }
 
 #content {
