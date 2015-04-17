@@ -3,6 +3,10 @@
 	font-family: Raleway;
 }
 
+body {
+	background-color: #C3D7DF;
+}
+
 @media (min-width: 58em) {
 	#layout {
 		padding-left: 150px;
@@ -18,10 +22,23 @@
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	position: relative;
+	
 }
 
 #menu {
-	background: #191818;
+	background-color: #67727A;
+}
+
+#menu span, #menu a {
+	color: #FFFFFF;
+	font-family: 'Indie Flower', cursive;
+}
+
+#menu span:hover, #menu a:hover {
+	background-color: #F5F5F5;
+	color: #67727A;
+}
+
 #header-image {
 }
 
@@ -30,5 +47,10 @@
 }
 
 #main {
-	position: absolute;
+	background-color: #F5F5F5;
+	box-shadow: 3px 3px 20px black;
+}
+
+#content {
+	padding: 30px;
 }
