@@ -22,6 +22,11 @@
 
 #menu {
 	background: #191818;
+#header-image {
+}
+
+#header-image img {
+	width: 100%;
 }
 
 #main {
