@@ -27,6 +27,7 @@ body {
 
 #menu {
 	background-color: #67727A;
+	border-bottom: 3px solid #D75C37;
 }
 
 #menu span, #menu a {
@@ -42,6 +43,7 @@ body {
 #header-image {
 	max-height: 250px;
 	overflow: hidden;
+	border-bottom: 3px solid #D75C37;
 }
 
 #header-image img {
