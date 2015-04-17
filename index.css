@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	font-family: Raleway;
+}
+
+@media (min-width: 58em) {
+	#layout {
+		padding-left: 150px;
+		padding-right: 150px;
+	 	left: 0;
+	}
+}
+
+#layout {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	position: relative;
+}
+
+#menu {
+	background: #191818;
+}
+
+#main {
+	position: absolute;
+}
