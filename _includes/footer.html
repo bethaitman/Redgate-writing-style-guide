@@ -1,0 +1,12 @@
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var pathname = window.location.pathname;
+    $("#menu ul li a").each(function(index) {
+        if (pathname.toUpperCase().indexOf($(this).attr('href').toUpperCase()) != -1) {
+          $(this).addClass("active");
+        }
+    });
+});
+</script>
