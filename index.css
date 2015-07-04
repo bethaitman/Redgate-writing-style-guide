@@ -1,15 +1,7 @@
 body {
-	background-color: #C3D7DF;
+/*	background-color: #F5F5F5;*/
 	font-family: Raleway;
 	box-sizing: border-box;
-}
-
-@media (min-width: 58em) {
-	#layout {
-		padding-left: 150px;
-		padding-right: 150px;
-	 	left: 0;
-	}
 }
 
 #layout {
@@ -19,26 +11,23 @@ body {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	position: relative;
-	
 }
 
 #menu {
 	background-color: #67727A;
-	border-bottom: 3px solid #D75C37;
-	padding: 30px 20px;
-	font-family: 'Indie Flower', cursive;
-}
-
-#logo {
-	font-size: 40px;
+	padding: 0 20%;
 }
 
 #menu a {
 	color: #FFFFFF;
 }
 
+#menu a#logo {
+	font-family: 'Abril Fatface', cursive;
+}
+
 #menu a:hover, #menu a.active {
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 	color: #67727A;
 }
 a#logo:hover {
@@ -46,21 +35,51 @@ a#logo:hover {
 	color: #FFFFFF;
 }
 
-#header-image {
-	max-height: 250px;
-	overflow: hidden;
-	border-bottom: 3px solid #D75C37;
-}
-
-#header-image img {
-	width: 100%;
-}
-
-#main {
-	background-color: #F5F5F5;
-}
-
-#content {
-	padding: 20px 20%;
+.content {
+	padding: 0 20%;
 	height: 100%;
+}
+
+.hero {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.hero-titles {
+	padding: 0 2em;
+	margin: 2em auto;
+	max-width: 35%;
+}
+
+.hero-titles h1 {
+	font-size: 70px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.hero-titles h2 {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.hero-ctas div {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.hero-ctas a {
+	color: white;
+	text-decoration: none;
+	font-family: Raleway;
+}
+
+.hero-ctas .first {
+	background-color: #1f8dd6;
+}
+
+.hero-ctas .second {
+	background-color: rgb(128, 88, 165);
+}
+
+.hero-ctas .third {
+	background-color: #5eb95e;
 }
