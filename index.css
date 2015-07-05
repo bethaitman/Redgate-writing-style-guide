@@ -1,20 +1,15 @@
 body {
-/*	background-color: #F5F5F5;*/
 	font-family: Raleway;
 	box-sizing: border-box;
 }
 
 #layout {
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-ms-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
 	position: relative;
 }
 
+
 #menu {
-	background-color: #67727A;
+	background-color: #191818;
 	padding: 0 20%;
 }
 
@@ -26,14 +21,11 @@ body {
 	font-family: 'Abril Fatface', cursive;
 }
 
-#menu a:hover, #menu a.active {
+#menu a:hover, #menu a.active, a#logo:hover {
 	background-color: #FFFFFF;
-	color: #67727A;
+	color: #191818;
 }
-a#logo:hover {
-	background-color: #67727A;
-	color: #FFFFFF;
-}
+
 
 .content {
 	padding: 0 20%;
@@ -82,4 +74,26 @@ a#logo:hover {
 
 .hero-ctas .third {
 	background-color: #5eb95e;
+}
+
+
+
+footer {
+	background-color: #67727A;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+footer .pure-menu {
+	padding: 0 20%;
+}
+
+footer .pure-menu a {
+	color: #FFFFFF;
+}
+
+footer .pure-menu a:hover {
+	background-color: #67727A;
 }
