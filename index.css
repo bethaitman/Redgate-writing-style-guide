@@ -4,31 +4,155 @@ body {
 }
 
 #layout {
+	margin-top: 70px;
 	position: relative;
 }
 
+.Header {
+  display: flex;
+  align-items: center;
 
-#menu {
-	background-color: #191818;
-	padding: 0 20%;
+  height: 70px;
+  width: 100%;
+  overflow: hidden;
+
+  background-color: #f2f2f2;
+
+  position: fixed;
+  top: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  z-index: 2;
 }
 
-#menu a {
-	color: #FFFFFF;
+.Header-logo {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 20px;
+
+
+  border-right: 1px solid #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#menu a#logo {
-	font-family: 'Abril Fatface', cursive;
+.Header-pages, .Header-links {
+  flex: 1;
+
+  display: flex;
 }
 
-#menu a:hover, #menu a.active, a#logo:hover {
-	background-color: #FFFFFF;
-	color: #191818;
+.Header-pages {
+  justify-content: flex-start;
+  margin-right: 40px;
+}
+
+.Header-links {
+  display: none;
+  justify-content: flex-end;
+
+  margin-right: 40px;
+}
+
+.Header-link {
+  color: #808184;
+  text-decoration: none;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+}
+
+.Header-link:hover {
+  color: #2B2B2B;
+  text-decoration: underline;
+}
+
+.Header-link--active {
+  color: #2B2B2B;
+}
+
+.Header-fadeIn {
+  opacity: 0;
+  -webkit-animation: Header-fadeIn--keyframes 3s 0.3s forwards;
+  animation: Header-fadeIn--keyframes 3s 0.3s forwards;
+}
+
+@-webkit-keyframes Header-fadeIn--keyframes { 100% { opacity: 1; }}
+@keyframes Header-fadeIn--keyframes { 100% { opacity: 1; }}
+
+.Header-RedGateLogo {
+  display: none;
+  height: 70px;
+  width: 150px;
+  background-color: #e2e2e2;
+
+  transform: skew(15deg);
+  transform-origin: 0px 0% 0px;
+}
+
+.Header-RedGateLogo > * {
+  transform: skew(-15deg);
+}
+
+@media screen and (min-width: 700px) {
+
+  .Header-RedGateLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+
+  .Header-pages {
+    padding-left: 30px;
+    margin-right: 0;
+  }  
+
+  .Header-links {
+    display: flex;
+  }
+}
+
+
+.Icon {
+  display: inline-block;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+
+  width: 16px;
+  height: 16px;
+}
+
+.Icon--medium {
+  width: 24px;
+  height: 24px;
+}
+
+.Icon--large {
+  width: 32px;
+  height: 32px;
+}
+
+.Icon--faded {
+  opacity: 0.5;
+}
+
+.Icon-redgate--black {
+  background-image: url('/assets/images/rg-logo-black.svg');
+  width: 80px;
+  height: 40px;
 }
 
 
 .content {
-	padding: 0 20%;
+	padding: 10px 20%;
 	height: 100%;
 }
 

@@ -4,5 +4,7 @@ title: Home
 ---
 
 {% include header.html %}
-
-{% include intro.md %}
+<div class="content">
+  {% capture my_include %}{% include intro.md %}{% endcapture %}
+  {{ my_include | markdownify }}
+</div>
