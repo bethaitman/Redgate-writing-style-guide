@@ -200,3 +200,8 @@ body {
 .hero-ctas .third {
 	background-color: #5eb95e;
 }
+
+hr {
+  height: 2px;
+  background-color: #009cde;
+}

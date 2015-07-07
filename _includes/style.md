@@ -4,6 +4,8 @@ This guide contains advice about how to write and format anything read by people
 
 Note that this style guide contradicts lots of our existing writing, because things have changed since then, or because there was no fixed style at the time, or someone was drunk.
 
+---
+
 ##The short version
 
 * Use plain English.
@@ -17,6 +19,8 @@ Note that this style guide contradicts lots of our existing writing, because thi
 * Use contractions (eg it's, isn't, hasn't etc).
 
 * Spell internet with a small i.
+
+---
 
 ##Tone
 
@@ -35,6 +39,8 @@ Gov.uk aims its content to be:
 * serious but not pompous
 
 We should aim for the same.
+
+---
 
 ##<a name="reference"></a>Useful reference material
 
