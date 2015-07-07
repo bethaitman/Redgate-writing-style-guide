@@ -6,12 +6,12 @@
 
 <a name="1"></a>
 
-###14-day, 28-day; 32-bit, 64-bit, etc
+##14-day, 28-day; 32-bit, 64-bit, etc
 Adjectives (eg "try the 14-day trial").
 
 <a name="a"></a>
 
-###abbreviations and acronyms
+##abbreviations and acronyms
 
 Don't use full stops in abbreviations; eg write TFS, not T.F.S.
 
@@ -19,63 +19,63 @@ The first time you use an abbreviation or acronym in a page, explain it in full,
 
 If the acronym is better understood than its expansion, don't bother spelling it out; for example, write DNS, not domain name system.
 
-###active vs passive voice
+##active vs passive voice
 Active voice: SQL Source Control polls the database.
 
 Passive voice: the database is polled by SQL Source Control.
 
 Try to use the active voice when it fits. It's usually easier to read.
 
-###add-in
+##add-in
 The SSMS term for plug-in. Note hyphen.
 
 Note that Visual Studio plug-ins are called extensions.
 
-###ampersands (&)
+##ampersands (&)
 Don't use them. Write "and" instead.
 
-###audience
+##audience
 Avoid; it's only appropriate for the entertainment business, which, glamorous as databases are, ain't our business. Say users instead.
 
-###Amazon Web Services
+##Amazon Web Services
 The name of a product, so uppercase.
 
-###American English
+##American English
 Use it. This is the English most of our users use. The exception is for job advertisements and advertising material aimed at the UK market (eg flyers at UK events, job adverts).
 
-####words ending with -ise
+###words ending with -ise
 Use ize instead, as with:
 * synchronize
 * customize
 * organize
 
-####call vs name
+###call vs name
 When talking about giving things names, such as files, use the verb name, not call. For example, "Name the column Customer."
 
-####singular collective nouns
+###singular collective nouns
 In American English, Redgate is a singular entity, not a collective. For example, write "Redgate is", not "Redgate are". The same goes for "Microsoft is..." and all other organizations.
 
-###application
+##application
 When talking generically about software, use application instead of program, tool, etc (eg "Close the application").
 
 <a name="b"></a>
 
-###backlog
+##backlog
 One word.
 
-###back up
+##back up
 Verb (eg "back up your database").
 
-###backup
+##backup
 Noun (eg "restore a database backup").
 
-###Beer Friday
+##Beer Friday
 Title case, no hyphen. (Added by request.)
 
-###big data
+##big data
 Lowercase.
 
-###bold
+##bold
 Since bold typefaces draw the eye, they can be used to reinforce task structure. In documentation, bold the names of things users will interact with or look for – important, active stuff, such as:
 
 * buttons
@@ -87,22 +87,22 @@ Since bold typefaces draw the eye, they can be used to reinforce task structure.
 * checkboxes
 For example: "To compress the backup, select the Compress backup checkbox."
 
-###browser-based
+##browser-based
 With hyphen.
 
-###bug-tracking system
+##bug-tracking system
 With hyphen.
 
-###button labels
+##button labels
 Only capitalize the first word (eg "Link to source control").
 For advice about when to use dots at the end of button names, see ellipsis.
 
 <a name="c"></a>
 
-###C#
+##C#
 Not c#, C Sharp, etc.
 
-###capitals
+##capitals
 From the Guardian: "Times have changed since the days of medieval manuscripts with elaborate hand-illuminated capital letters, or Victorian documents in which not just proper names, but virtually all nouns, were given initial caps (a Tradition valiantly maintained to this day by Estate Agents). The tendency towards lowercase, which in part reflects a less formal, less deferential society, has been accelerated by the explosion of the internet: some web companies, and many email users, have dispensed with capitals altogether."
 
 We haven't gone as far as dispensing with capitals altogether, but we do minimize their use. Uppercase sentences used to appear in software all over the place, but it's going out of style. It looks stuffy and self-important, and is now used only by BuzzFeed headline writers. Keen to disassociate ourselves from such bottom-feeders, we only use uppercase for proper names (eg Redgate, SQL Compare, Visual Studio, Richard Mitchell). Use lowercase for most things, including:
@@ -114,147 +114,147 @@ We haven't gone as far as dispensing with capitals altogether, but we do minimiz
 * job titles (eg software engineer, product manager)
 * bullet points when the point leads from a sentence you've already started (like this one)
 
-###canceled, canceling, canceled
+##canceled, canceling, canceled
 One L (American English).
 
-###caveats
+##caveats
 Gov.uk: "Don't let caveats dictate unwieldy grammar – eg write 'You can' rather than 'You may be able to'."
 
-###check in
+##check in
 Verb (eg "check in your changes").
 
 This is the term used in Source Control for Oracle for adding changes to source control, because "commit" has another meaning  in the world of Oracle database development. SQL Source Control uses the more vanilla "commit" instead.
 
-###check-in
+##check-in
 Noun (eg "see your last check-in").
 
-###checkbox
+##checkbox
 One word, no hyphen.
 
 Despite their name, checkboxes are selected, not checked (eg "make sure all the object types are selected"), and cleared, not unchecked or deselected.
 
-###check out
+##check out
 Verb (eg "Check out your order").
 
-###checkout
+##checkout
 Noun (eg "Go to Checkout").
 
-###client-side
+##client-side
 Adjective (eg "client-side server").
 
-###clobbering
+##clobbering
 Jargon term for accidentally overwriting someone else's databases changes. It's not used everywhere, so call it "accidentally overwriting someone else's database changes" instead.
 
-###cloud
+##cloud
 Lowercase, because it's not a proper noun or product that belongs to someone.
 
-###colons
+##colons
 Use to introduce an image or example. 
 
 In a sentence, don't capitalize after a colon: write it in lowercase, like this.
 
-###colors
+##colors
 In marketing materials, we only use the colors red, black, and white.
 
 Redgate red is #CC0000 (hex) or R:204 G:0 B:0 (RGB). It's not the standard red that appears in Microsoft Office.
 
 Also, note that we spell color with no u. It's the American way!
 
-###codebase
+##codebase
 One word.
 
-###Oxford commas (ie a comma before the final "and" in lists)
+##Oxford commas (ie a comma before the final "and" in lists)
 From the Guardian: "Straightforward lists (he ate ham, eggs and chips) don't need one, but sometimes it can help the reader (he ate cereal, kippers, bacon, eggs, toast and marmalade, and tea), and sometimes it's essential: compare 'I dedicate this book to my parents, Martin Amis, and JK Rowling' with 'I dedicate this book to my parents, Martin Amis and JK Rowling'."
 
-###columnstore index
+##columnstore index
 As ugly as it looks, that's how Microsoft does it.
 
-###command line
+##command line
 Two words, no hyphen.
 
 ##continuous integration
 Lowercase.
 
-###contractions (it's, can't, don't, haven't etc)
+##contractions (it's, can't, don't, haven't etc)
 Use them. Contractions simplify and relax prose without seeming sloppy or lazy. 
 
 Make sure you're consistent; don't write "do not" in one place and "isn't" in another.
 
-###copyright
+##copyright
 Stating copyright is, in the words of our own Colin Oakman, "fairly pointless". 
 
 If you must include it somewhere, perhaps compelled at gunpoint, just write: © Redgate Software Ltd
 
-###copyright and trademark symbols (© ® TM )
+##copyright and trademark symbols (© ® TM )
 Delete them (unless you're determined to write a copyright notice, as above).
 
-###crowdsource, crowdsourcing
+##crowdsource, crowdsourcing
 One word.
 
-###customer
+##customer
 Avoid, unless you're writing specifically in a sales context. 
 For a generic word for users of our products, write user instead. For example: "We understand that installing updates frequently is impractical for some users."
 
 <a name="d"></a>
 
-###data
+##data
 Singular; write "data is lost", not "data are lost". No one ever uses "datum".
 
-###dates
+##dates
 Use this format: April 11th, 2013.
 
 Don't use the short form (eg 11/4/1995), as the format changes depending on country.
 
-###dependencies
+##dependencies
 When writing about databases dependencies, don't use words like dependent and depending; they look too similar and it's easy to confuse yourself (and the reader). 
 Instead, use the verb "to reference", eg "object A references object B" or "object F is referenced by object G". The same goes for multiple objects: object Q references objects R and S, and is referenced by objects T, U and V.
 
 Sometimes this makes sentences slightly awkward, but it's better to be slightly awkward and clear than succinct and incomprehensible.
 
-###dialog box
+##dialog box
 Not dialog, or dialogue.
 
-###dialog box titles
+##dialog box titles
 Use sentence case.
 
 If the tool is a plug-in (eg SQL Source Control or SQL Prompt) and the dialog box opens in a host application, include the name of the tool in the title with an endash. For example: "SQL Source Control – History"
 
-###disabled
+##disabled
 Avoid; write "unavailable" instead. 
 
 If a control is unavailable, it's often helpful to explain why.
 
-###do, follow
+##do, follow
 Not perform or execute (unless you're talking about executing code). For example: "Follow the instructions on the Setup page."
 
-###documentation
+##documentation
 Not help, support, support center, etc. 
 
 It's fine to have a Help menu in the tools, but when you link to documentation from there, write "Documentation", not "Help contents", etc.
 
-###double-click
+##double-click
 With hyphen.
 
-###downloadable
+##downloadable
 Adjective. 
 
 Use to distinguish applications that are downloaded and installed on your computer, rather than run in a browser online (ie as a service). Don't use "on-premises".
 
-###drop-down menu
+##drop-down menu
 With hyphen.
 
 <a name="e"></a>
 
-###earlier (version numbers)
+##earlier (version numbers)
 eg "SQL Source Control 3.2 or earlier", not older.
 
-###early access prototype (EAP), early access release, etc
+##early access prototype (EAP), early access release, etc
 Don't use these terms; write beta instead.
 
-###ebook
+##ebook
 No caps or hyphen.
 
-###eg, etc, ie
+##eg, etc, ie
 Gov.uk: "Don't use full stops after or between these notations. This was once necessary when print setting but is now cumbersome to read with modern documents and digital screens." Guardian style backs this up. We know it looks a bit like "egg", but we don't mind.
 
 Don't put a comma after eg or ie (eg write it like this).
@@ -263,7 +263,7 @@ For reference, eg means "for example", and "ie" means "that is" (giving more inf
 
 In most cases, writing "for example" in full is better than writing eg, but the abbreviations are appropriate in parentheses or where space is limited, like tooltips and embedded help.
 
-###ellipsis (…)
+##ellipsis (…)
 In products (but not websites), use ellipsis - aka dot dot dot… - for button labels and menu choices where the action needs further action from the user.
 
 A button labeled Deploy indicates the deployment will happen immediately after you click it. If you need to emphasise this, consider labeling it Deploy now.
@@ -278,19 +278,19 @@ Basically, the purpose of ellipsis is to reassure users that nothing scary will 
 
 In documentation, when referring to a control with ellipsis in the label, don't include the ellipsis in the text. For example, write "Select the objects and click Deploy", not "Select the objects and click Deploy...".
 
-###encountering, experiencing
+##encountering, experiencing
 In the world of software, these are euphemisms for "having", and so it's usually simpler to write "have" instead. For example: "If you still have problems, contact Redgate support."
 
-###enter
+##enter
 Use for fields you type stuff into. For example: "Enter the database name."
 
-###email
+##email
 No hyphen, no capital.
 
-###email address
+##email address
 Unless you need to avoid ambiguity, just write email.
 
-###error messages
+##error messages
 Error messages are important. They're an integral part of the user experience, and users are far more annoyed by bad error messages than they are delighted by a cool UI.
 
 * Explain, in the following order: what went wrong, why, and (if possible) how to fix it.
@@ -313,7 +313,7 @@ Error messages are important. They're an integral part of the user experience, a
 
 * Would someone who isn't a developer for this application understand the problem described?
 
-###extension
+##extension
 Not file extension or file name extension.
 
 Don't capitalize extensions followed by a full stop; for example, write .csv, .html, .sql, etc. If you use an extension as the last word in a sentence, don't follow it with a full stop; eg write "Download as a .chm".
@@ -323,87 +323,87 @@ The exception is PDF, which has become its own word (eg "available as a PDF"). F
 
 <a name="f"></a>
 
-###file path
+##file path
 Two words, no hyphen.
 
-###file name
+##file name
 Two words, no hyphen.
 
-###fill out (for surveys)
+##fill out (for surveys)
 Not fill in. (American English.)
 
-###first-time
+##first-time
 Hyphenate only when used as adjective; eg first-time user, first-time comparison, etc.
 
-###fix
+##fix
 Not rectify, repair, correct, resolve, or solve. 
 
 Use to describe something that actually fixes the problem rather than works around it (see workaround).
 
-###flyer
+##flyer
 Many US style guides recommend flier, but flyer is the more common US spelling.
 
-###focused, focusing
+##focused, focusing
 One s: not focussed or focussing.
 
-###free
+##free
 Not for free; eg "SQL Search is available free".
 
 <a name="g"></a>
 
-###MB, GB, Mb, Gb
+##MB, GB, Mb, Gb
 MB, GB: for hard disks, memory and file sizes. (An uppercase B indicates bytes.)
 
 Mb, Gb: for network connections. (A lowercase b indicates bits, not bytes.)
 
 Write both without a space after the number, eg 100MB.
 
-###gender
+##gender
 Our software is used by men and women, and our writing should reflect that.
 
 Never say "his" to refer to a user generically. It's fine to use they/them/their (eg "The user can link their database to source control").
 
 To counter the predominantly male language of software and database development, it's nice to include female names in screenshots, worked examples and so on (eg "Amanda creates a table in her database and goes to the Commit changes tab").
 
-###Git
+##Git
 Uppercase G.
 
-###GitHub
+##GitHub
 No hyphen.
 
 <a name="h"></a>
 
-###host name
+##host name
 two words.
 
-###hover over
+##hover over
 Avoid. Write "move the mouse over" instead.
 
 <a name="i"></a>
 
-###icons
+##icons
 Sometimes it's more helpful to include an image of a UI element rather than describe it.
 
 If the icon comes at the end of the sentence, don't follow it with a full stop.
 
-###information about
+##information about
 Not information on.
 
-###internet
+##internet
 With a small i, no matter what the Microsoft style guide or the surly developer on your team thinks. There's no sensible rationale for capitalizing it as a proper noun, and it's old-fashioned.
 
-###the internet of things
+##the internet of things
 Lowercase.
 
-###into/in to
+##into/in to
 In the words of the Guardian style guide: "One word if you go into a room or look into something, but two words in such sentences as I called in to complain, I listened in to their conversation and I went in to see my friend."
 
 For us, this means one word in sentences such as "Log into your Redgate ID" and "Check changes into source control".
 
-###impact
+##impact
 A noun, not a verb. Things have an impact; they don't impact things. (The verb you're looking for is "affect").
 
-###italics
+##italics
 Italicize:
 
 * things a user can type or specify (eg "*Type or select WidgetStaging*")
@@ -416,7 +416,7 @@ Italicize:
 
 <a name="j"></a>
 
-###jargon
+##jargon
 "The practice of never calling a spade a spade when you might instead call it a manual earth-restructuring implement." - Bill Bryson
 
 Like all offices, Redgate has a high volume of jargon, including old favorites such as:
@@ -439,31 +439,31 @@ Using language like this to communicate internally is one thing. But please don'
 
 The world of database and software development has its own jargon, of course, and this should be avoided too. For example, accidentally overwriting someone's database change is known colloquially as "clobbering", but "accidentally overwriting changes" is clear and neutral to everyone who reads it.
 
-###JavaScript
+##JavaScript
 Uppercase S.
 
-###job titles
+##job titles
 Lowercase. For example, James Duffy is a technical writer, not a Technical Writer.
 
 <a name="k"></a>
 
 <a name="l"></a>
 
-###later (version numbers)
+##later (version numbers)
 eg "SQL Source Control 3.2 or later", not higher.
 
-###left-hand, right-hand
+##left-hand, right-hand
 Adjectives.
 
-###lets you, enables you, allows you (eg "SQL Source Control enables you to source-control your databases")
+##lets you, enables you, allows you (eg "SQL Source Control enables you to source-control your databases")
 Avoid. "Enables" is wordy marketing speak, and "lets" and "allows" sound like SQL Source Control is giving you permission to do something.
 
 Instead, write "With SQL Source Control, you can source-control your databases". Better yet, find a way to write it as a straightforward active sentence, describing what the tool itself does: "SQL Source Control links your database to your source control system."
 
-###license
+##license
 Not licence. This goes for both nouns and verbs. (American English.)
 
-###links
+##links
 Don't use anything like "click here" for a link; there's always a better way of doing it.
 
 Ideally, the title of the page you're linking will be self-explanatory. In these happy cases, write "[see Deploying data sources](http://documentation.red-gate.com/display/SC10/Deploying+data+sources)", not  "read about Deploying data sources [here](http://documentation.red-gate.com/display/SC10/Deploying+data+sources)".
@@ -474,7 +474,7 @@ If you're short of space in a UI, it's OK to just write "[Learn more](http://doc
 
 Punctuation (eg full stops and commas) following the link should never be part of the link text.
 
-###lists
+##lists
 Lists make things easy to read. Use them!
 
 If each item in the list is a sentence, use sentence case: capitalize the first word and end with a full stop.
@@ -495,15 +495,15 @@ Don't use "and" before the last item.
 
 Don't mix styles in the same list.
 
-###log in, log out
+##log in, log out
 Verbs (eg "Log into your Redgate ID").
 
 Avoid other forms such as log on/off, sign in/out, sign off.
 
-###login
+##login
 Noun (eg "I've forgotten my login details").
 
-###logos
+##logos
 Make sure you use the right Redgate logo.
 
 The Redgate logo uses the curvature font. This font shouldn't be used elsewhere under any circumstances.
@@ -514,24 +514,24 @@ You can get logos from W:\Public Design Work\LOGOS_x\LOGOS
 
 <a name="m"></a>
 
-###make sure
+##make sure
 Not ensure, which sounds pompous.
 
-###metadata
+##metadata
 One word.
 
-###might
+##might
 Not may.
 
-###migration script
+##migration script
 Not migrations script. No caps.
 
-###monospace
+##monospace
 Use monospace when you want to embed a bit of code or script in normal text, or when you're quoting from text in an XML or SQL file, or a command line, or other techy text thing. 
 
 For example: "You can change the value in the <QueryTimeInMillis> tags to the interval you want."
 
-###mouse and key actions
+##mouse and key actions
 Capitalize as most keyboards do, like this:
 
 * click
@@ -550,40 +550,40 @@ Capitalize as most keyboards do, like this:
 
 Use "+" for simultaneous actions. For example: "Highlight the objects with Shift + click or Ctrl + click."
 
-###mouse wheel
+##mouse wheel
 Not scroll wheel or wheel button.
 
 Not to be used as a verb object; write "scroll using the mouse wheel", not "scroll the mouse wheel".
 
 <a name="n"></a>
 
-###n/a
+##n/a
 Lowercase.
 
-###numbers
+##numbers
 Spell as words from one to nine. After that, use digits: 10, 11, 12...
 
 If you have both in the same sentence, only use digits.
 
-###no one
+##no one
 No hyphen.
 
 <a name="o"></a>
 
-###Object Explorer
+##Object Explorer
 Uppercase, because Microsoft named it, not us.
 
-###OK
+##OK
 Write this as an abbreviation instead of "okay", without full stops. This applies to UI (eg OK buttons) and everything else.
 
-###online
+##online
 No hyphen.
 
-###open source
+##open source
 As a noun, no hyphen: eg "our development model is open source".
 As an adjective, hyphenate: eg "this is open-source software".
 
-###Oracle product names
+##Oracle product names
 We're legally unable to put Oracle at the start of our names for Oracle database products, since it sounds like they're made by Oracle the company. So:
 
 * Data Compare for Oracle
@@ -591,14 +591,14 @@ We're legally unable to put Oracle at the start of our names for Oracle database
 * Schema Doc for Oracle
 * Source Control for Oracle
 
-###overly
+##overly
 You wouldn't write "underly", so don't write "overly".
 
 Write "overcomplex", "overqualified", etc. If you're unconvinced, use "too" instead.
 
 <a name="p"></a>
 
-###page
+##page
 When referring to content on documentation.red-gate.com, use "page" instead of "topic" or "article".
 page titles, headings, email subjects etc
 
@@ -610,12 +610,12 @@ For "how to" pages, use gerunds (eg "Creating backups"). Don't use questions (eg
 
 For troubleshooting pages about error messages, use the error message (truncated if very long) for the title. Otherwise, state the problem in the present tense in the terms users are most likely to google (eg "Can't run two database backups at the same time").
 
-###photography
+##photography
 Stock photography is banned on account of being boring. 
 
 Photographs of real people and situations are OK.
 
-###please
+##please
 Be careful. "Please" can make writing feel cold and teacherly. For example, "To view source control history, go to the History tab" sounds more helpful and neutral than "To view source control history, please go to the History tab".
 
 The exception is if we're asking users to do something that principally benefits Redgate and not them. For example:
@@ -624,33 +624,33 @@ The exception is if we're asking users to do something that principally benefits
 
 Though it does benefit the user to get their bugs fixed, this example is more about asking users to report bugs so we can do our job better. We're basically asking a favour of them, so "please" is appropriate.
 
-###plug-in
+##plug-in
 With hyphen; but note that SSMS plug-ins are called add-ins and Visual Studio plug-ins are called extensions.
 
-###prerequisite
+##prerequisite
 Avoid. Use "requirement" instead.
 
-###program
+##program
 Never programme, which is British. (But remember, as a noun, we generally prefer application anyway.)
 
-###PS
+##PS
 No full stops (in this or any other acronym).
 
 <a name="q"></a>
 
-###quotation marks
+##quotation marks
 Use double quotation marks ("). Use single quotation marks (') for quotations within quotations.
 
 <a name="r"></a>
 
-###re/re-
+##re/re-
 Use re- (with hyphen) when followed by the vowels e or u (not pronounced as "yu"): eg re-entry, re-examine.
 
 Use re (no hyphen) when followed by the vowels a, i, o or u (pronounced as "yu"), or any consonant: eg reinstall, reassemble, reorder, reread, reuse, rebuild, retry.
 
 Exceptions where confusion with another word would arise: re-cover/recover, re-creation/recreation, re-form/reform, re-sent/resent, re-run/rerun.
 
-###Redgate
+##Redgate
 As of January 2015, Redgate is spelled as one word. As Simon G sez:
 
 "About 80% of the time when I tell people our company name and they've never seen it written down, they assume it's Redgate. For fifteen years now, we've been correcting them, but recently we've come around to the idea that maybe we should be correcting ourselves. If our logo, our URL and our company name were all Redgate, wouldn't that be simpler for people to understand and remember?
@@ -667,67 +667,67 @@ Don't include Redgate in product names (eg write SQL Compare, not Redgate SQL Co
 
 Remember: in American English, Redgate is a singular entity (eg "Redgate is a company", "Redgate issues software updates").
 
-###right-click
+##right-click
 Verb (eg "Right-click the file").
 
 This doesn't need "on" after it; for example, write "right-click the object", not "right-click on the object".
 
 <a name="s"></a>
 
-###Save as...
+##Save as...
 Not Save file as, Save project as, etc. The exception is to use "Save project as…" where it disambiguates from an existing "Save as…" option.
 
 Note ellipsis, because it requires further input from the user (see ellipsis).
 
-###schema, schemas
+##schema, schemas
 Not schemata. (Yes, people have used this.)
 
-###screen
+##screen
 
 Not to be used to describe any bit of a UI. Be specific: is it a dialog box, tab, pane, or page?
 
-###screenshot
+##screenshot
 Not screen or screengrab. 
 
-###scrollbar
+##scrollbar
 One word, no hyphen.
 
-###see
+##see
 Not refer to.
 
-###semicolons
+##semicolons
 OK in some situations, but always consider using a full stop instead. In technical writing, semicolons can be frilly and ambiguous.
 
 A rule of thumb: unless you're writing a list, if you can't replace your semicolon with a full stop and still have the sentence make sense, you've probably gone wrong.
 
 If you're not confident with semicolons, don't use them. Leave them to the mad poets and dreamers. (But if you're curious, there's a [good guide to semicolons on WikiHow](http://www.wikihow.com/Use-a-Semicolon).)
 
-###server
+##server
 Lowercase. Unless you're talking about the Microsoft product SQL Server, which is uppercase. eg "The server that SQL Server is installed on"
 
-###server-side
+##server-side
 Adjective.
 
-###set up
+##set up
 Verb (eg "Set up the database comparison")
 
-###setup
+##setup
 Noun (eg "Follow the setup instructions").
 
-###shown, opens
+##shown, opens
 Not displayed (nasty passive voice) or appears (sounds like a magic trick).
 
 Remember to use the active voice where you can: eg "The History dialog box opens" is better than "The History dialog is shown".
 
-###Simple Talk
+##Simple Talk
 Uppercase, no hyphen, with space.
 
-###slashes
+##slashes
 Use for combinations (eg client/server), not as a substitute for "or". 
 
 Only use spaces when there are multiple words on at least one side of the slash (eg "database administrator / database developer").
 
-###source control
+##source control
 Not version control or revision control. 
 
 Version control is the more widely used term, but our source control products are named SQL Source Control and Source Control for Oracle, so we should err on the side of consistency... for now.
@@ -740,124 +740,124 @@ As an adjective: source-controlled (eg "Your database is source-controlled").
 
 Never refer to SQL Source Control without "SQL" as "Source Control", as it looks like you're talking about source control the concept, rather than SQL Source Control the application.
 
-###spacing after a full stop
+##spacing after a full stop
 Use a single space, not double. (The oft-supplied historical explanation for this [may be apocryphal](http://www.heracliteanriver.com/?p=324), but who cares? Single spaces look better.)
 
-###specify
+##specify
 Generic verb for providing information about something. Use this for forms with multiple controls (eg a combination of radio buttons and text fields). For example: 
 "Specify connection details."
 
 If you're only talking about text fields you type into, use "enter".
 
-###spelled vs spelt
+##spelled vs spelt
 
 "Spelled" is the more common American spelling. As our own Michael Upton points out, spelt is more familiar to Americans as "dinkel wheat, or hulled wheat … an ancient species of wheat from the fifth millennium BC".
 
-###SQL Comparison SDK
+##SQL Comparison SDK
 The name of a product, so use uppercase. 
 
 Write "the" before it in sentences, or it looks weird. For example: "With the SQL Comparison SDK, you can use the functionality of SQL Compare, SQL Data Compare, and SQL Packager in your own applications."
 
-###SQL Server
+##SQL Server
 Uppercase, eg "The base monitor is a Windows service that monitors your SQL Servers". "SQL Servers" means "instances of SQL Server".
 
 The computer that SQL Server is installed on is just a "server". 
 
-###SQL Server Database Project
+##SQL Server Database Project
 Uppercase.
 
-###SQL Server Management Studio
+##SQL Server Management Studio
 It's fine simply to write "Management Studio". (Microsoft does.)
 
-###start up
+##start up
 Verb (eg to start up a computer).
 
-###startup
+##startup
 Noun; the event of starting up (eg check for updates on startup).
 
-###sub-
+##sub-
 Don't hyphenate words that begin with sub. Instead, write subfolder, subheading, subsection, subdomain, etc.
 
-###support
+##support
 No caps, even when referring to Redgate support (eg "contact Redgate support").
 
-###sync
+##sync
 Not synch. (But remember: our comparison tools don't synchronize or sync database changes, they deploy them.)
 
-###SQL tools
+##SQL tools
 Not a product name, so tool is lowercase.
 
 <a name="t"></a>
 
-###table-valued function
+##table-valued function
 With hyphen.
 
-###taskbar
+##taskbar
 One word, lowercase.
 
-###technical writer, technical communications, tech comms
+##technical writer, technical communications, tech comms
 Lowercase (as with job titles).
 
-###time out
+##time out
 As a noun, with hyphen; eg "time-out".
 
 As a verb, without hyphen; eg "the server request timed out".
 
-###that, which, of
+##that, which, of
 Can often (but not always) be removed without losing meaning or clarity; eg "choose the database that you want to source-control"; "select all of the objects".
 
 But clarity is more important than brevity, so don't delete it if you think it's clearer.
 
-###that or which?
+##that or which?
 "That" defines. "Which" gives extra information, often in a clause enclosed by commas or brackets.
 
 | Sentence   | Meaning  |
 | The classrooms, which were painted last summer, are bright and cheerful.  | All the classrooms were painted last summer. They're bright and cheerful. | 
 | The classrooms that were painted last summer are bright and cheerful. | Only some of the classrooms were painted last summer. Unlike the unpainted ones, the painted classrooms are bright and cheerful. | 
 
-###third party
+##third party
 Noun.
 
-###third-party
+##third-party
 Adjective (eg a third-party company).
 
-###tooltip
+##tooltip
 One word, lowercase.
 
-###tooling
+##tooling
 The word normal humans use is "tools".
 
 <a name="u"></a>
 
-###update vs upgrade
+##update vs upgrade
 Updates are minor releases - eg SQL Monitor 3.1 to 3.2.
 
 Upgrades are major releases - eg SQL Monitor 3 to 4.
 
-###UK-based
+##UK-based
 With hyphen.
 
-###uninstall
+##uninstall
 One word, contrary to some of our engine tests' haughty demands.
 
-###up to date
+##up to date
 But up-to-date drivers (as an adjective). For example: "The drivers are up to date", but "Download up-to-date drivers".
 
-###user
+##user
 The best generic term for a user of our products (as opposed to, for example, customer).
 
-###user base
+##user base
 Two words, no hyphen.
 
-###user-defined
+##user-defined
 Adjective, hyphen.
 
-###username
+##username
 One word when referring to the name part of a login. (Read the comments for a fascinating debate about this.)
 
 <a name="v"></a>
 
-###video
+##video
 When creating a video:
 * keep mouse movements smooth
 * highlight clicks only if necessary for clarity
@@ -865,35 +865,35 @@ When creating a video:
 
 <a name="w"></a>
 
-###want
+##want
 Not wish (we're not genies). For example, write: "If you want to add a new database to source control..."
 
-###web, website, web browser, web address, web page
+##web, website, web browser, web address, web page
 No capitals.
 
 Unless you want to sound like a square from the past, don't say "the web" on its own; say "the internet" instead.
 
-###we and us
+##we and us
 It's OK to write "we" or "us" to mean Redgate, especially as it means we avoid the passive voice; eg write "We recommend you do X", not "You are recommended to do X".
 
-###whilst
+##whilst
 Avoid. Though still in common use in British English, whilst is becoming old-fashioned; in American English, it's Shakespearean. Use "while" instead.
 
-###WinForms
+##WinForms
 Note capitals. 
 
 An ugly name for an ugly thing.
 
-###with
+##with
 Be careful. When written to mean using, this can lead to unwanted ambiguity. For example, "select the objects with the checkboxes" could be read as "select the objects that have checkboxes" or "select the objects and the checkboxes".
 
-###white paper
+##white paper
 Two words.
 
-###white space
+##white space
 Two words.
 
-###workaround, work around
+##workaround, work around
 Noun: workaround (eg "You can use the following workaround to…"). 
 
 Verb: "work around" (eg "work around the problem").
@@ -906,7 +906,7 @@ A workaround doesn't fix a problem. Instead, it allows the user to get on with t
 
 <a name="z"></a>
 
-###zoom in, zoom out
+##zoom in, zoom out
 No hyphen.
 
 [back to top](#top)
