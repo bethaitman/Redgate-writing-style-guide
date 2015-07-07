@@ -1,6 +1,8 @@
 ##Alphabetical list of entries
 
-[a](#a) [b](#b) [c](#c) [d](#d) [e](#e) [f](#f)
+[#](#1) [a](#a) [b](#b) [c](#c) [d](#d) [e](#e) [f](#f) [g](#g) [h](#h) [i](#i) [j](#j) [k](#k) [l](#l) [m](#m) [n](#n) [o](#o) [p](#p) [q](#q) [r](#r) [s](#s) [t](#t) [u](#u) [v](#v) [w](#w) [x](#x) [y](#y) [z](#z)
+
+<a name="1"></a>
 
 ###14-day, 28-day; 32-bit, 64-bit, etc
 Adjectives (eg "try the 14-day trial").
@@ -345,6 +347,8 @@ One s: not focussed or focussing.
 ###free
 Not for free; eg "SQL Search is available free".
 
+<a name="g"></a>
+
 ###MB, GB, Mb, Gb
 MB, GB: for hard disks, memory and file sizes. (An uppercase B indicates bytes.)
 
@@ -365,11 +369,15 @@ Uppercase G.
 ###GitHub
 No hyphen.
 
+<a name="h"></a>
+
 ###host name
 two words.
 
 ###hover over
 Avoid. Write "move the mouse over" instead.
+
+<a name="i"></a>
 
 ###icons
 Sometimes it's more helpful to include an image of a UI element rather than describe it.
@@ -404,6 +412,8 @@ Italicize:
 
 * new terms to distinguish them from the rest of the sentence, because it'll look weird if you don't (eg "*Whenever you compare databases, you set up a project*")
 
+<a name="j"></a>
+
 ###jargon
 "The practice of never calling a spade a spade when you might instead call it a manual earth-restructuring implement." - Bill Bryson
 
@@ -432,6 +442,10 @@ Uppercase S.
 
 ###job titles
 Lowercase. For example, James Duffy is a technical writer, not a Technical Writer.
+
+<a name="k"></a>
+
+<a name="l"></a>
 
 ###later (version numbers)
 eg "SQL Source Control 3.2 or later", not higher.
@@ -496,6 +510,8 @@ The black logo should only be used on a white or red background. The white logo 
 
 You can get logos from W:\Public Design Work\LOGOS_x\LOGOS
 
+<a name="m"></a>
+
 ###make sure
 Not ensure, which sounds pompous.
 
@@ -537,6 +553,8 @@ Not scroll wheel or wheel button.
 
 Not to be used as a verb object; write "scroll using the mouse wheel", not "scroll the mouse wheel".
 
+<a name="n"></a>
+
 ###n/a
 Lowercase.
 
@@ -547,6 +565,8 @@ If you have both in the same sentence, only use digits.
 
 ###no one
 No hyphen.
+
+<a name="o"></a>
 
 ###Object Explorer
 Uppercase, because Microsoft named it, not us.
@@ -573,6 +593,8 @@ We're legally unable to put Oracle at the start of our names for Oracle database
 You wouldn't write "underly", so don't write "overly".
 
 Write "overcomplex", "overqualified", etc. If you're unconvinced, use "too" instead.
+
+<a name="p"></a>
 
 ###page
 When referring to content on documentation.red-gate.com, use "page" instead of "topic" or "article".
@@ -612,8 +634,12 @@ Never programme, which is British. (But remember, as a noun, we generally prefer
 ###PS
 No full stops (in this or any other acronym).
 
+<a name="q"></a>
+
 ###quotation marks
 Use double quotation marks ("). Use single quotation marks (') for quotations within quotations.
+
+<a name="r"></a>
 
 ###re/re-
 Use re- (with hyphen) when followed by the vowels e or u (not pronounced as "yu"): eg re-entry, re-examine.
@@ -643,6 +669,8 @@ Remember: in American English, Redgate is a singular entity (eg "Redgate is a co
 Verb (eg "Right-click the file").
 
 This doesn't need "on" after it; for example, write "right-click the object", not "right-click on the object".
+
+<a name="s"></a>
 
 ###Save as...
 Not Save file as, Save project as, etc. The exception is to use "Save project as…" where it disambiguates from an existing "Save as…" option.
@@ -757,6 +785,8 @@ Not synch. (But remember: our comparison tools don't synchronize or sync databas
 ###SQL tools
 Not a product name, so tool is lowercase.
 
+<a name="t"></a>
+
 ###table-valued function
 With hyphen.
 
@@ -795,6 +825,8 @@ One word, lowercase.
 ###tooling
 The word normal humans use is "tools".
 
+<a name="u"></a>
+
 ###update vs upgrade
 Updates are minor releases - eg SQL Monitor 3.1 to 3.2.
 
@@ -821,11 +853,15 @@ Adjective, hyphen.
 ###username
 One word when referring to the name part of a login. (Read the comments for a fascinating debate about this.)
 
+<a name="v"></a>
+
 ###video
 When creating a video:
 * keep mouse movements smooth
 * highlight clicks only if necessary for clarity
 * accelerate sections of typing (after the video has been filmed)
+
+<a name="w"></a>
 
 ###want
 Not wish (we're not genies). For example, write: "If you want to add a new database to source control..."
@@ -861,6 +897,12 @@ Noun: workaround (eg "You can use the following workaround to…").
 Verb: "work around" (eg "work around the problem").
 
 A workaround doesn't fix a problem. Instead, it allows the user to get on with their lives until we provide a proper fix.
+
+<a name="x"></a>
+
+<a name="y"></a>
+
+<a name="z"></a>
 
 ###zoom in, zoom out
 No hyphen.

@@ -200,25 +200,3 @@ body {
 .hero-ctas .third {
 	background-color: #5eb95e;
 }
-
-
-
-footer {
-	background-color: #67727A;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	position: absolute;
-}
-
-footer .pure-menu {
-	padding: 0 20%;
-}
-
-footer .pure-menu a {
-	color: #FFFFFF;
-}
-
-footer .pure-menu a:hover {
-	background-color: #67727A;
-}
