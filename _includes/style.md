@@ -813,8 +813,9 @@ But clarity is more important than brevity, so don't delete it if you think it's
 ###that or which?
 "That" defines. "Which" gives extra information, often in a clause enclosed by commas or brackets.
 
-| Sentence   | Meaning  |
+| **Sentence**   | **Meaning**  |
 | The classrooms, which were painted last summer, are bright and cheerful.  | All the classrooms were painted last summer. They're bright and cheerful. | 
+
 | The classrooms that were painted last summer are bright and cheerful. | Only some of the classrooms were painted last summer. Unlike the unpainted ones, the painted classrooms are bright and cheerful. | 
 
 ###third party
