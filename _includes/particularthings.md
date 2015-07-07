@@ -45,6 +45,7 @@ Our release notes have been wildly inconsistent over the years. Here's our recom
 
 * SQL Backup Pro doesn't support installation on Windows Server 2012 with Failover Clustering. For more information, see Installing
 
+---
 
 ##Usage reports
 [ ] Send anonymous usage statistics and error reports to Redgate
