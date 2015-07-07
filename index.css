@@ -58,8 +58,8 @@ body {
 .Header-link {
   color: #808184;
   text-decoration: none;
-  height: 70px;
-  line-height: 70px;
+  height: 40px;
+  line-height: 40px;
   padding: 0 20px;
 }
 
@@ -68,8 +68,9 @@ body {
   text-decoration: underline;
 }
 
-.Header-link--active {
+.Header-link.active {
   color: #2B2B2B;
+  border-bottom: solid 5px #009cde;
 }
 
 .Header-fadeIn {
