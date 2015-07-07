@@ -1,7 +1,11 @@
 ##Alphabetical list of entries
 
+[a](#a) [b](#b) [c](#c) [d](#d) [e](#e) [f](#f)
+
 ###14-day, 28-day; 32-bit, 64-bit, etc
 Adjectives (eg "try the 14-day trial").
+
+<a name="a"></a>
 
 ###abbreviations and acronyms
 
@@ -50,6 +54,8 @@ In American English, Redgate is a singular entity, not a collective. For example
 ###application
 When talking generically about software, use application instead of program, tool, etc (eg "Close the application").
 
+<a name="b"></a>
+
 ###backlog
 One word.
 
@@ -86,6 +92,8 @@ With hyphen.
 ###button labels
 Only capitalize the first word (eg "Link to source control").
 For advice about when to use dots at the end of button names, see ellipsis.
+
+<a name="c"></a>
 
 ###C#
 Not c#, C Sharp, etc.
@@ -183,6 +191,8 @@ One word.
 Avoid, unless you're writing specifically in a sales context. 
 For a generic word for users of our products, write user instead. For example: "We understand that installing updates frequently is impractical for some users."
 
+<a name="d"></a>
+
 ###data
 Singular; write "data is lost", not "data are lost". No one ever uses "datum".
 
@@ -228,6 +238,8 @@ Use to distinguish applications that are downloaded and installed on your comput
 
 ###drop-down menu
 With hyphen.
+
+<a name="e"></a>
 
 ###earlier (version numbers)
 eg "SQL Source Control 3.2 or earlier", not older.
@@ -304,6 +316,8 @@ Don't capitalize extensions followed by a full stop; for example, write .csv, .h
 
 Capitalize file types when you're not writing them as extensions; for example, HTML file, SQL file, etc.
 The exception is PDF, which has become its own word (eg "available as a PDF"). For this reason, it's fine to write PDFs plural, rather than PDF files.
+
+<a name="f"></a>
 
 ###file path
 Two words, no hyphen.
