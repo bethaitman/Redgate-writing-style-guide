@@ -8,5 +8,8 @@ $(document).ready(function() {
           $(this).addClass("active");
         }
     });
+
+    if ($("header a.active").length == 0)
+        $("header a.Header-logo").addClass("active");
 });
 </script>
