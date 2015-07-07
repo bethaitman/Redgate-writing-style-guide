@@ -14,10 +14,9 @@ Note that this style guide contradicts lots of our existing writing, because thi
 
 * Use capital letters cautiously; You Don't Need To Capitalize Everything Like This. The same applies for buttons, headings, menus, email topics, and job titles.
 
-* It's fine to use contractions (eg it's, isn't, hasn't etc).
+* Use contractions (eg it's, isn't, hasn't etc).
 
 * Spell internet with a small i.
-
 
 ##Tone
 
@@ -85,6 +84,7 @@ Use it. This is the English most of our users use. The exception is for job adve
 
 ####words ending with -ise
 Use ize instead, as with:
+
 * synchronize
 * customize
 * organize
@@ -208,7 +208,7 @@ As ugly as it looks, that's how Microsoft does it.
 ###command line
 Two words, no hyphen.
 
-##continuous integration
+###continuous integration
 Lowercase.
 
 ###contractions (it's, can't, don't, haven't etc)
@@ -430,11 +430,11 @@ A noun, not a verb. Things have an impact; they don't impact things. (The verb y
 ###italics
 Italicize:
 
-* things a user can type or specify (eg "*Type or select WidgetStaging*")
+* things a user can type or specify (eg "Type or select *WidgetStaging*")
 
-* file names (eg "*Open SQLScript.sql in your SQL editor*")
+* file names (eg "Open *SQLScript.sql* in your SQL editor")
 
-* file paths (eg "*Go to C:\Program files\Red Gate\SQL Compare 7*")
+* file paths (eg "Go to *C:\Program files\Red Gate\SQL Compare 7*")
 
 * new terms to distinguish them from the rest of the sentence, because it'll look weird if you don't (eg "*Whenever you compare databases, you set up a project*")
 
@@ -721,7 +721,7 @@ Noun (eg "Follow the setup instructions").
 ###shown, opens
 Not displayed (nasty passive voice) or appears (sounds like a magic trick).
 
-Remember to use the active voice where you can: eg "The History dialog box opens" is better than "The History dialog is shown".
+Remember to use the active voice where you can: eg "The History dialog box opens" is better than "The is History dialog is shown".
 
 ###Simple Talk
 Uppercase, no hyphen, with space.
@@ -855,12 +855,6 @@ Adjective, hyphen.
 ###username
 One word when referring to the name part of a login. (Read the comments for a fascinating debate about this.)
 
-###video
-When creating a video:
-* keep mouse movements smooth
-* highlight clicks only if necessary for clarity
-* accelerate sections of typing (after the video has been filmed)
-
 ###want
 Not wish (we're not genies). For example, write: "If you want to add a new database to source control..."
 
@@ -900,6 +894,7 @@ A workaround doesn't fix a problem. Instead, it allows the user to get on with t
 No hyphen.
 
 ##How to write particular things
+
 ###Release notes
 Our release notes have been wildly inconsistent over the years. Here's our recommended format, with an example afterwards:
 
@@ -930,18 +925,25 @@ Our release notes have been wildly inconsistent over the years. Here's our recom
 
 * Link to any relevant resources.
 
-An example of some release notes using this format:
+#####Example release notes
 
-Version 3.3.1.30 - April 18th, 2013
-Features
-Upload backup copies to a SQL Backup Pro Hosted Storage account
-Manage offsite backups from the SQL Backup Pro Hosted Storage website
-View results of copying backups to hosted storage or a network location from the Activity History and Backup Properties
-Fixes
-SB-5415: When installing the server components with the /Log switch, account passwords are no longer recorded in plain text in the log
-SB-5446: The SQL Backup server components installer now checks that the user is a member of the SQL Server sysadmin role before attempting the installation
-Known issues
-SQL Backup Pro doesn't support installation on Windows Server 2012 with Failover Clustering. For more information, see Installing
-Usage reports
-[] Send anonymous usage statistics and error reports to Redgate
-We use these statistics to improve our tools. 
+######Features
+
+* Upload backup copies to a SQL Backup Pro Hosted Storage account
+* Manage offsite backups from the SQL Backup Pro Hosted Storage website
+* View results of copying backups to hosted storage or a network location from the Activity History and Backup Properties
+
+######Fixes
+
+* SB-5415: When installing the server components with the /Log switch, account passwords are no longer recorded in plain text in the log
+* SB-5446: The SQL Backup server components installer now checks that the user is a member of the SQL Server sysadmin role before attempting the installation
+
+######Known issues
+
+* SQL Backup Pro doesn't support installation on Windows Server 2012 with Failover Clustering. For more information, see Installing
+
+
+###Usage reports
+[ ] Send anonymous usage statistics and error reports to Redgate
+
+We use these statistics to improve our tools.
