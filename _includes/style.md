@@ -50,3 +50,11 @@ This guide is far from comprehensive. Where something isn't covered here, see al
 * the [gov.uk style guide](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) for nice advice about writing plain English (but remember, again, that we use American English)
 * the [Microsoft Manual of Style (fourth edition PDF)](https://ptgmedia.pearsoncmg.com/images/9780735648715/samplepages/9780735648715.pdf) for software-specific terminology. There are physical copies in the office if you'd like one. Be aware some of it's out of date, particularly when it comes to capitalization
 * [Merriam Webster](http://www.merriam-webster.com) for spellings and definitions
+
+## Alphabetical style guide
+
+Lives [here](alphabet.html).
+
+## How to write particular things
+
+Lives [here](particularthings.html).
